@@ -1,0 +1,92 @@
+/*HTML STYLING*/
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/*HEAD & BODY STYLING*/
+head,body{
+    display: flex;
+    margin: 0;
+    height: 100%;
+}
+
+
+/*H1 STYLING*/
+h1{
+    text-align: center;
+    padding: 10px;
+    margin: 20px 50px 20px 50px;
+    color:rgba(255, 255, 255, 0.85);
+}
+
+
+/*BODY STYLING*/
+body{
+    display: flex;
+    background-color: #455175;
+}
+
+
+/*class="box" STYLING*/
+.box{
+    width: 96%;
+    height: 70%;
+    background-color: #91a4dc ;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/*H2 STYLING*/
+h2{
+    display:flex;
+    font-size: medium;
+    font-family: 'Times New Roman';
+    color:#fff ;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*INPUT STYLING*/
+input{
+    align-items: center;
+    padding: 10px;
+    margin: 10px 50px 10px 50px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+/*BUTTON STYLING*/
+button{
+    align-content: center;
+    background-color:darkgray;
+    color: rgb(50, 75, 77);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px 50px 0px 50px;
+    cursor: pointer;
+}
+
+
+/*class="register" STYLING*/
+.register{
+    display: flex;
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+
+/*P STYLING*/
+p{
+    text-align: center;
+}

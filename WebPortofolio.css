@@ -1,0 +1,462 @@
+/*TEMPLATE USED*/
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --blackblue: #051427;
+    --maroon: #530f1e;
+    --brown: #a44322;
+    --red: #ff0000;
+    --solareclipse: #f8bc04;
+    --orange: #ff9d00;
+    --darkblue: #023f65;
+    --bluegrey: #b0d2e7;
+    --spacesky: #0a1753;
+    --bluewhite: #f0f8ff;
+    }
+    
+
+    /*HTML STYLING*/
+    *, html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+
+    /*BODY STYLING*/
+    body{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        background-color: var(--blackblue);
+    }
+    
+
+    /*HEADER STYLING*/
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    /*NAVIGATION BAR STYLING DEFAULT*/
+    nav{
+        background-color: var(--white);
+        display: flex;
+        justify-content: flex-end;
+        padding: 1rem 20px;
+    }
+    
+
+    /*NAV UL STYLING DEFAULT*/
+    nav ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 10rem;
+    }
+    
+
+    /*NAV UL LI A STYLING DEFAULT*/
+    nav ul li a{
+        text-decoration: none;
+        font-family: 'Roboto', Times, serif;
+        font-weight: 600;
+        padding: 8px 0 0 0;
+        transition: all;
+        transition-duration: 200ms;
+        border-bottom: 1px solid transparent;
+        color: var(--black)
+    }
+    
+
+    /*NAV UL LI A REACTIVE*/
+    nav ul li a:hover{
+        color: var(--maroon);
+        border-bottom: 3px solid var(--maroon);
+    }
+    
+
+    /*class="menu-icon" DISSABLE*/
+    .menu-icon{
+        display: none;
+    }
+
+
+    /*class="content-left" STYLING DEFAULT*/
+    .content-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 60%;
+        height: 90px;
+        background-color: var(--blackblue);
+    }
+
+
+    /*class="pre-title" STYLING DEFAULT*/
+    .pre-title{
+        color: var(--white);
+        font-size: 40px;
+        font-weight: 800;
+        padding: 20px;
+    }
+
+
+    /*class="Devan" STYLING DEFAULT*/
+    .Devan{
+        color: var(--orange);
+        font-size: 50px;
+        font-weight: 800;
+        padding: 40px 10px 40px 40px;
+    }
+    
+
+    /*class="Matthew" STYLING DEFAULT*/
+    .Matthew{
+        color: var(--solareclipse);
+        font-size: 50px;
+        font-weight: 800;
+    }
+    
+
+    /*class="sub-title" STYLING DEFAULT*/
+    .sub-title{
+        color: var(--white);
+        font-size: 30px;
+        font-weight: 800;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+
+    /*class="desc" STYLING DEFAULT*/
+    .desc{
+        color: var(--white);
+        font-size: 17px;
+        font-weight: 800;
+        max-width: 300px;
+        padding-left: 20px;
+        padding-top: 10px
+    }
+
+
+    /*class="content-right" STYLING DEFAULT*/
+    .content-right{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 90%;
+        height: 520px;
+    }
+
+
+    /*MY PROFILE PICTURE STYLING DEFFAULT*/
+    .Devan-Matthew{
+        display: flex;
+        justify-content: flex-end;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+    }
+
+
+    /*class="My-porto" STYLING DEFAULT*/
+    .My-porto{
+        justify-content: flex-start;
+        font-weight: 300;
+        padding-left: 10px;
+        color: var(--white)
+    }
+
+
+    /*PROJECT ONE IMG STYLING DEFAULT*/
+    .project-one img{
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+        border: solid 4px var(--spacesky);
+        border-radius: 2rem;
+        margin-left: 100px;
+    }
+
+
+    /*PROJECT ONE HYPERLINK STYLING*/
+    .project-one a{
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 200;
+        color: var(--white);
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /*HYPERLINK PROJECT ONE REACTIVE*/
+    .project-one a:hover{
+        color: var(--red);
+        transition: all;
+        transition-duration: 200ms;
+        cursor: pointer;
+    }
+
+
+    /*PROJECT ONE PARAGRAPH STYLING*/
+    .project-one p{
+        background-color: var(--bluewhite);
+        color: var(--black);
+        font-size: medium;
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    /*PROJECT TWO IMG STYLING DEFAULT*/
+    .project-two img{
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+        border: solid 4px var(--spacesky);
+        border-radius: 2rem;
+        margin-left: 100px;
+    }
+
+
+    /*PROJECT TWO HYPERLINK STYLING*/
+    .project-two a{
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 200;
+        color: var(--white);
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /*HYPERLINK PROJECT TWO REACTIVE*/
+    .project-two a:hover{
+        color: var(--red);
+        transition: all;
+        transition-duration: 200ms;
+        cursor: pointer;
+    }
+
+
+    /*PROJECT TWO PARAGRAPH STYLING*/
+    .project-two p{
+        background-color: var(--bluewhite);
+        color: var(--black);
+        font-size: medium;
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    /*FOOTER STYLING DEFAULT*/
+    .Touch{
+        background-color: var(--bluegrey);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 2rem 20px;
+        margin-top: 2rem;
+    }
+
+    /*class="GetTouch" STYLING*/
+    .GetTouch{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-bottom: 20px;
+    }
+
+    /*CONTACT LIST STYLING DEFAULT*/
+    .Touch ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 10rem;
+    }
+    
+
+    /*CONTACT IMG STYLING DEFAULT*/
+    .Touch ul li img{
+        height: 40px;
+        width: 40px;
+        border: 2px solid var(--Black);
+        border-radius: 30px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px
+    }
+
+
+    /*CONTACT HYPERLINK STYLING*/
+    .Touch ul li a{
+        text-decoration: none;
+        font-family: 'Roboto', Times, serif;
+        font-weight: 600;
+        padding: 8px 0 0 0;
+        transition: all;
+        transition-duration: 200ms;
+        border-bottom: 1px solid transparent;
+        color: var(--black)
+    }
+    
+    /*CONTACT HYPERLINK REACTIVE*/
+    .Touch ul li a:hover{
+        color: var(--brown);
+        border-bottom: 3px solid var(--brown);
+    }
+
+
+/*Ini adalah Styling CSS jika layar support kurang dari atau sama dengan 768px*/
+
+    @media only screen and (max-width: 768px){
+       
+        /*NAVIGATION BAR STYLING CONDITION*/
+        nav{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    
+        /*NAV UL STYLING CONDITION*/
+        nav ul{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    
+        /*NAV LIST DISSABLE*/
+        nav ul.menu-list{
+            display: none;
+        }
+
+        /*NAV UL LI A STYLING CONDITION*/
+        nav ul li a{
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /*class="menu-icon" ENABLE*/
+        .menu-icon{
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        /*class="content-left" STYLING CONDITION*/
+        .content-left{
+            flex-direction: column;
+        }
+    
+        /*class="pre-title" STYLING CONDITION*/
+        .pre-title{
+            padding-top: 20px;
+            padding-left: 0%;
+        }
+
+        /*class="Devan" STYLING CONDITION*/
+        .Devan{
+            padding: 20px 0px 40px 0px;
+        }
+        
+        /*class="Matthew" STYLING CONDITION*/
+        .Matthew{
+            padding: 20px 0px 40px 0px;
+        }
+        
+        /*class="sub-title" STYLING DEFAULT*/
+        .sub-title{
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /*class="desc" STYLING CONDITION*/
+        .desc{
+            justify-content: center;
+            align-items: center;
+            max-width: 100%;
+        }
+    
+        /*class="content-right" STYLING CONDITION*/
+        .content-right{
+            flex-direction: column;
+            margin-top: 6rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            width: 100%;
+            height: 400px;
+        }
+    
+        /*MY PROFILE PICTURE STYLING CONDITION*/
+        .Devan-Matthew{
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-end;
+            padding-top: 20px;
+            width: 40%;
+            height: 50%;
+            margin-bottom: 3rem;
+        }
+
+        /*class="My-porto" STYLING CONDITION*/
+        .My-porto{
+            justify-content: center;
+            font-weight: 300;
+            padding-left: 10px;
+            padding-bottom: 1rem;
+            color: var(--white)
+        }
+    
+        /*PROJECT ONE IMG STYLING CONDITION*/
+        .project-one img{
+            width: 100%;
+            margin-left: auto;
+        }
+    
+        /*PROJECT TWO IMG STYLING CONDITION*/
+        .project-two img{
+            width: 100%;
+            margin-left: auto;
+        }
+
+        /*FOOTER STYLING CONDITION*/
+        .Touch{
+            padding: 2rem 20px;
+        }
+
+        /*CONTACT LIST STYLING CONDITION*/
+        .Touch ul{
+            gap: 2rem;
+        }
+        
+        /*CONTACT IMG STYLING CONDITION*/
+        .Touch ul li img{
+            height: 40px;
+            width: 20px;
+        }
+    }
